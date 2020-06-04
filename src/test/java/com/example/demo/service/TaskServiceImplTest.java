@@ -14,7 +14,7 @@ import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
 
 import com.example.demo.entity.Task;
 
-@SpringJUnitConfig //Junit5上でSpring TestContext Frameworkを利用することを示す
+@SpringJUnitConfig //Junit5上でSpring TestContext Frameworkを利用することを示す。
 @SpringBootTest //毎回サーバ起動
 @ActiveProfiles("unit")//application-unit.ymlのunitを対応（DBの設定を読み込む）
 @DisplayName("TaskServiceImplの結合テスト")
